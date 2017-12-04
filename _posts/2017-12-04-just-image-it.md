@@ -1,5 +1,5 @@
 ---
-title: Just image it.
+title: 
 ---
 
-## Just image it.
+## Welcome
