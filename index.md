@@ -1,5 +1,5 @@
 ---
-title:
+title: Just. Image. It.
 ---
 
 ## Welcome
