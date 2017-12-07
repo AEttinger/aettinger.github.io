@@ -12,5 +12,5 @@ description: A blog about microscopy, microscope hardware, image processing, and
 </ul>
 
 {% for post in site.posts limit: 10  %}
-  post.content
+  {{ post.content }}
 {% endfor %}
