@@ -1,3 +1,5 @@
-theme: jekyll-theme-cayman
-title: Just. Image. It.
+remote_theme: "mmistakes/minimal-mistakes"
+title: JustImageIt.
 description: A blog about microscopy, microscope hardware, image processing, and sometimes biology.
+plugins:
+  - jekyll-remote-theme
