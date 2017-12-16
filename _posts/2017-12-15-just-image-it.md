@@ -1,5 +1,5 @@
 ---
-
+title: "Initial post"
 ---
 ## Just image it!
 
