@@ -16,7 +16,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           {% for repository in site.github.public_repositories %}
-          <a class="dropdown-item" href="aettinger.github.io/{{ repository.name }}">{{ repository.name }}</a>
+          <a class="dropdown-item" href="{{ repository.name }}">{{ repository.name }}</a>
           {% endfor %}
         </div>
       </li>
