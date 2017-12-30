@@ -1,5 +1,6 @@
 ---
 title: "Initial post"
+layout: post
 ---
 ## Just image it!
 
