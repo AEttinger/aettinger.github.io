@@ -1,2 +1,5 @@
+title: Just. Image. It.
+description: A blog about microscopy, microscpe hardware, image processing, and, occasionally, biology.
+timezone: Europe/Berlin
 sass:
     sass_dir: _sass
