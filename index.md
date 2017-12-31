@@ -1,7 +1,6 @@
 ---
 
 ---
-{% include head.html %}
 
 {% include navbar.html %}
 
@@ -26,5 +25,3 @@
 </div>
 
 </main>
-
-{% include footer.html %}
