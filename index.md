@@ -15,7 +15,7 @@
 
     <div class="blog-post">
       <h2 class="blog-post-title">{{ post.title }}</h2>
-      <p class="blog-post-meta">{{ page.date }}</p>
+      <p class="blog-post-meta">{{ post.date }}</p>
       {{ post.content }}
     </div>
 
