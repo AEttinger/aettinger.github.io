@@ -11,7 +11,7 @@
 
     <div class="blog-post">
       <h2 class="blog-post-title">{{ post.title }}</h2>
-      <p class="blog-post-meta">{{ post.date | date: "%B %d, %Y %k:%M %z" }}</p>
+      <p class="blog-post-meta">{{ post.date | date: "%B %d, %Y %k:%M %Z" }}</p>
       {{ post.content }}
     </div>
 
