@@ -20,8 +20,8 @@
   </div>
 
   <nav class="blog-pagination">
-      <a class="btn btn-outline-secondary disabled" href="{{ paginator.previous_page }}">Newer</a>
-    <a class="btn btn-outline-primary" href="{{ paginator.next_page }}">Older</a>
+      <a class="btn btn-outline-secondary disabled" href="{{ paginator.previous_page_path }}">Newer</a>
+    <a class="btn btn-outline-primary" href="{{ paginator.next_page_path }}">Older</a>
   </nav>
 
 </div>
