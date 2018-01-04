@@ -6,7 +6,7 @@
 <div class="row">
 
   <div class="col-sm-8 blog-main">
-
+  {{ paginator.pages }}
   {% for post in paginator.posts %}
 
     <div class="blog-post">
