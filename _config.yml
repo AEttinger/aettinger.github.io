@@ -4,6 +4,3 @@ timezone: Europe/Berlin
 url: https://aettinger.github.io/
 sass:
     sass_dir: _sass
-plugins:
-  - jekyll-paginate
-paginate: 1
