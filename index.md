@@ -21,9 +21,7 @@
 
   <nav class="blog-pagination">
     <a class="btn btn-outline-secondary disabled" href="{{ paginator.previous_page_path }}">Newer</a>
-    {% if paginator.next_page %}
     <a class="btn btn-outline-primary" href="{{ paginator.next_page_path }}">Older</a>
-    {% endif %}
   </nav>
 
 </div>
