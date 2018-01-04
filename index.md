@@ -7,7 +7,7 @@
 
   <div class="col-sm-8 blog-main">
 
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
 
     <div class="blog-post">
       <h2 class="blog-post-title">{{ post.title }}</h2>
