@@ -6,7 +6,7 @@
 <div class="row">
 
   <div class="col-sm-8 blog-main">
-  {{ paginator.pages }}
+  {{ paginator.total_posts }}
   {% for post in paginator.posts %}
 
     <div class="blog-post">
@@ -20,7 +20,7 @@
   </div>
 
   <nav class="blog-pagination">
-    <a class="btn btn-outline-secondary disabled" href="{{ paginator.previous_page_path }}">Newer</a>
+    <a class="btn btn-outline-primary" href="{{ paginator.previous_page_path }}">Newer</a>
     <a class="btn btn-outline-primary" href="{{ paginator.next_page_path }}">Older</a>
   </nav>
 
