@@ -157,13 +157,15 @@ h6,
   background-color: #eee;
 }
 .carousel-item > img {
-  max-width: 60rem;
-  margin-right: auto;
-  margin-left: auto;
+
 }
 
 .carousel-inner {
+  margin-right: auto;
+  margin-left: auto;
   max-height: 300px;
+  width: 60rem;
+  overflow: hidden;
 }
 
 /* Center align the text within the three columns below the carousel */
