@@ -155,11 +155,9 @@ h6,
 .carousel-item {
   height: 32rem;
   background-color: #eee;
-  max-width: 60rem;
 }
 .carousel-item > img {
-  display: block;
-  margin: auto;
+  max-width: 60rem;
 }
 
 .carousel-inner {
