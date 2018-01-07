@@ -4,6 +4,11 @@
 @import "variables";
 @import "bootstrap/bootstrap";
 
+.carousel-control-prev,
+.carousel-control-next{
+  color: $custom-carousel-control-color;
+}
+
 /*
  * Globals
  */
@@ -154,7 +159,7 @@ h6,
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
-  background-color: #eee;
+  background-color: #fff;
 }
 .carousel-item > img {
 
