@@ -157,6 +157,8 @@ h6,
   background-color: #eee;
 }
 .carousel-item > img {
+  position: absolute;
+  top: 0;
   display: block;
   margin:auto;
 }
