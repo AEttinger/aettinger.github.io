@@ -173,14 +173,14 @@ h6,
 }
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.marketing .col-lg-4 .col-lg-3 .col-lg-2 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
 .marketing h2 {
   font-weight: 400;
 }
-.marketing .col-lg-4 p {
+.marketing .col-lg-4 .col-lg-3 .col-lg-2 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
@@ -194,4 +194,8 @@ h6,
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
+}
+
+.blog-main > img {
+  max-width: 400px;
 }
