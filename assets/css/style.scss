@@ -204,7 +204,12 @@ figure {
   display: table;
 }
 
-img, figcaption {
+figure img {
+  display: block;
+  width: 100%;
+}
+
+figcaption {
   display: table-caption;
   caption-side: bottom;
 }
