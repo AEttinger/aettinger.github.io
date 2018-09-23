@@ -201,15 +201,10 @@ h6,
 }
 
 figure {
-  display: table;
-}
-
-figure img {
   display: block;
-  width: 100%;
 }
 
-figcaption {
-  display: table-caption;
-  caption-side: bottom;
+figure>figure {
+  display: inline-block;
+  width: min-content;
 }
