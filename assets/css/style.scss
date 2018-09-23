@@ -199,3 +199,12 @@ h6,
 .blog-post > img {
   max-width: 400px;
 }
+
+figure {
+  display: table;
+}
+
+img, figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
